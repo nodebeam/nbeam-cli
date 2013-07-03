@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+process.title = 'beam';
+
+var beam = require('../lib/beam');
+
+beam.start(function (err) {
+	process.exit(err ? 1 : 0);
+});

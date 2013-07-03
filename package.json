@@ -1,0 +1,29 @@
+{
+    "name":           "beam-cli",
+    "version":        "0.0.1",
+    "description":    "a CLI program created for nodebeam project.",
+    "url":            "",
+    "main":           "./bin",
+    "bin":            { "devcycle": "./bin/beam" },
+    "directories":    { "bin": "./bin", "lib": "./lib" },
+    "dependencies": {
+        "commander": ">=1.0.0",
+        "fstream": ">=0.1.22",
+        "fstream-npm": ">=0.1.5",
+        "request": ">=2.21.0",
+        "tar": ">=0.1.17"
+    },
+    "scripts": {
+        "test": ""
+    },
+    "keywords": [
+        "CLI",
+        "nodebeam",
+        "beam-cli"
+    ],
+    "author": {
+        "name": "Stanislas Bach",
+        "email": "stanislasbach@gmail.com"
+    },
+    "license": ""
+}

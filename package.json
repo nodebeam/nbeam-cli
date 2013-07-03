@@ -1,10 +1,10 @@
 {
-    "name":           "beam-cli",
+    "name":           "nbeam-cli",
     "version":        "0.0.1",
     "description":    "a CLI program created for nodebeam project.",
     "url":            "",
     "main":           "./bin",
-    "bin":            { "devcycle": "./bin/beam" },
+    "bin":            { "devcycle": "./bin/nbeam" },
     "directories":    { "bin": "./bin", "lib": "./lib" },
     "dependencies": {
         "commander": ">=1.0.0",
@@ -19,7 +19,7 @@
     "keywords": [
         "CLI",
         "nodebeam",
-        "beam-cli"
+        "nbeam-cli"
     ],
     "author": {
         "name": "Stanislas Bach",

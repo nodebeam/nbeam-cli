@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+process.title = 'nbeam';
+
+var nbeam = require('../lib/nbeam');
+
+nbeam.start(function (err) {
+	process.exit(err ? 1 : 0);
+});

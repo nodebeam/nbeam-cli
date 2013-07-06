@@ -20,11 +20,11 @@
     "scripts": {
         "test": ""
     },
-    "keywords": {
+    "keywords": [
         "CLI",
         "nodebeam",
         "nbeam-cli"
-    },
+    ],
     "author": {
         "name": "Stanislas Bach",
         "email": "stanislasbach@gmail.com"
